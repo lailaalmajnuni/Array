@@ -84,7 +84,6 @@ T *Array<T>::end() {
 }
 
 int main(int arg, char * args[]) {
-//test code.
  	Array<Animal *> a(3);
        
 	
