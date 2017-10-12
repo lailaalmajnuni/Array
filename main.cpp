@@ -85,16 +85,11 @@ T *Array<T>::end() {
 
 int main(int arg, char * args[]) {
  	Array<Animal *> a(3);
-       
-	
 	a[0] = new Cat();
         a[1] = new Dog();
         a[2] = new Cat();
 	cout << a[0]->speak() << endl;
 	cout << a[1]->speak() << endl;
 	cout << a[2]->speak() << endl;
-	
-
-
 	return 0;
 }
